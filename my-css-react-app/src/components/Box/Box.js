@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './Box.scss'
+import './Box.sass'
 
 const Box = () => (
   <div className='Box'>
