@@ -1,5 +1,6 @@
 import logo from './logo.svg'
 import './App.css'
+import Box from './components/Box'
 
 function App () {
   return (
@@ -9,14 +10,7 @@ function App () {
         <h1>
           Edit <code>src/App.js</code> and save to reload.
         </h1>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
+        <Box>FOCUS</Box>
       </header>
     </div>
   )
